@@ -1,0 +1,9 @@
+## 开发/测试/生产环境分别对应dev/test/prod，可以自由定义
+spring:
+  profiles:
+      active: dev
+  datasource:
+    druid:
+      url: jdbc:oracle:thin:@//192.168.1.201:1521/hupub7
+      username: db_sp
+      password: admin123
